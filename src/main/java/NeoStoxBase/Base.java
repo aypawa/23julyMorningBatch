@@ -17,6 +17,10 @@ public class Base {
 		driver.manage().window().maximize();
 		Utility.Wait(driver, 3000);
 	}
+	
+	
+	
+	
 	public static void closeBrowser() throws InterruptedException
 	{
 		Thread.sleep(1000);
